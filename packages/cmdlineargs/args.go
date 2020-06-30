@@ -7,7 +7,7 @@ import (
 // Reads command line arguments
 // and prints to output console
 func main() {
-	for i := 1; i < len(os.Args); i++ {
+	for i := 0; i < len(os.Args); i++ {
 		println(os.Args[i])
 	}
 }
